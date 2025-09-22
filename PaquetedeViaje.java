@@ -44,10 +44,8 @@ public class PaquetedeViaje {
     }
 
     public void mostrarPaquete() {
-        System.out.println("ID Paquete: " + idPaquete);
-        System.out.println("Destino: " + destino);
-        System.out.println("Precio Base: $" + precioBase);
-        System.out.println("Cantidad Disponible: " + cantidadDisponible);
+        System.out.println("\nID Paquete: " + idPaquete + ", " + destino + " - $" + precioBase + " (Disponibles: " + cantidadDisponible + ")");
+   
     }
 
     public void actualizarDisponibilidad(int cantidad) {
